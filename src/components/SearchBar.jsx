@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { fetchWeatherData } from "../services/weatherAPI";
+import { fetchWeatherData } from "../services/WeatherApi";
 import WeatherCard from "./WeatherCard";
 
 const SearchBar = () => {
